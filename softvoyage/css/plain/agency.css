@@ -1,0 +1,69 @@
+/**
+	* Vacation.com Agency Styles
+	* @author Parcom Marketing [http://www.parcommarketing.com]
+	* @version 20100723.1330
+	*/
+/* @group Search Frame & Tabs */
+.svWrap { width: 100%; }
+.svWrap iframe { border: none; height: 660px; overflow: hidden; vertical-align: top; width: 100%; }
+.svWrap .svTabs { width: 290px; }
+.svWrap .svTabCars { width: 55px; }
+.svWrap .svTabFlights { width: 60px; }
+.svWrap .svTabHotels { width: 60px; }
+.svWrap .svTabLastMinute { width: 53px; }
+.svWrap .svTabPackages { width: 70px; }
+.svWrap .svFrameCars { height: 595px !important; }
+.svWrap .svFrameFlights { height: 555px !important; }
+.svWrap .svFrameHotels { height: 275px !important; }
+.svWrap .svFrameLastMinute { height: 597px !important; }
+.svWrap .svFramePackages { height: 660px !important; }
+
+.svWideWrap { width: 100%; }
+.svWideWrap iframe { border: none; height: 425px; overflow: hidden; vertical-align: top; width: 100%; }
+.svWideWrap .svTabs { width: 463px; }
+.svWideWrap .svTabCars { width: 87px; }
+.svWideWrap .svTabFlights { width: 87px; }
+.svWideWrap .svTabHotels { width: 87px; }
+.svWideWrap .svTabLastMinute { width: 112px; }
+.svWideWrap .svTabPackages { width: 98px; }
+.svWideWrap .svFrameCars { height: 372px !important; }
+.svWideWrap .svFrameFlights { height: 337px !important; }
+.svWideWrap .svFrameHotels { height: 275px !important; }
+.svWideWrap .svFrameLastMinute { height: 410px !important; }
+.svWideWrap .svFramePackages { height: 425px !important; }
+
+.svTabs { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5; list-style-type: none; margin: 0 !important; overflow: auto; padding: 0 0 0 10px !important; }
+.svTabs li { background: transparent url(https://www.centreholidays.com/softvoyage/img/plain/tabs.png) no-repeat 0 -64px; display: inline; float: right; margin: 0 0 0 -12px; padding: 0 0 0 10px; text-align: center; user-select: none; -webkit-user-select: none; -moz-user-select: none; zoom: 1; }
+.svTabs li.current { background-position: 0 -96px; position: relative; z-index: 100; }
+.svTabs li.current a:link, .svTabs li.current a:visited { background-position: 100% -32px; color: black !important; }
+.svTabs li a { display: block; height: 22px; line-height: 22px; overflow: hidden; padding: 8px 10px 2px 0; }
+.svTabs li a:link, .svTabs li a:visited { background: transparent url(https://www.centreholidays.com/softvoyage/img/plain/tabs.png) no-repeat 100% 0; color: white; font-weight: bold; outline: none !important; text-decoration: none; }
+
+/* @end */
+/* @group Rounded Corners */
+.svBBottom, .svBTop { background: white; display: block; font-size: 1px; }
+
+.svBBottom .svB2, .svBBottom .svB3, .svBBottom .svB4 { background: #dedede; }
+
+.svBTop .svB2, .svBTop .svB3, .svBTop .svB4 { background: #fff; }
+
+.svB1, .svB2, .svB3, .svB4 { display: block; overflow: hidden; }
+
+.svB1, .svB2, .svB3 { height: 1px; }
+
+.svB2, .svB3, .svB4 { border-left: 1px solid #505050; border-right: 1px solid #505050; }
+
+.svB1 { background: #505050; margin: 0 5px; }
+
+.svB2 { border-width: 0 2px; margin: 0 3px; }
+
+.svB3 { margin: 0 2px; }
+
+.svB4 { height: 2px; margin: 0 1px; }
+
+/* @end */
+/* @group IE6-specific properties */
+* html .svTabs li { background-image: url(https://www.centreholidays.com/softvoyage/img/plain/tabs-ie.png) !important; }
+* html .svTabs li a:link, * html .svTabs li a:visited { background-image: url(https://www.centreholidays.com/softvoyage/img/plain/tabs-ie.png) !important; }
+
+/* @end */

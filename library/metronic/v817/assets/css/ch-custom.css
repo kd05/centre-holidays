@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* Overall Font */
+  html,
+body {
+  font-family: Poppins, Helvetica, "sans-serif" !important;
+}
+/* Light Theme */
+[data-bs-theme=light] {
+--bs-text-warning: #ba9a69 !important;
+--bs-warning: #ba9a69 !important;
+--bs-warning-active: #9a8157 !important;
+}
+/* Text Links Hover (Footer) */
+.menu-hover-warning .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here), .menu-hover-warning .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) {
+  transition: color 0.2s ease;
+  color: var(--bs-warning);
+}
+/* Primary Navigation */
+.app-header-menu .menu .menu-item.show > .menu-link .menu-title {
+  color: var(--bs-warning) !important;
+}
+.app-header-menu .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here) .menu-title, .app-header-menu .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-title {
+  color: var(--bs-warning) !important;
+}
+/* Primary Navigation Sub Menu */
+.app-header-menu .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here) .menu-icon,
+.app-header-menu .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here) .menu-icon .svg-icon,
+.app-header-menu .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here) .menu-icon i, .app-header-menu .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-icon,
+.app-header-menu .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-icon .svg-icon,
+.app-header-menu .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-icon i {
+  color: var(--bs-warning) !important;
+}
+/* Contact Navigation Menu */
+.menu-state-bg .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here), .menu-state-bg .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) {
+  color: var(--bs-warning) !important;
+}
+/* Text Link */
+.link-warning {
+  color: var(--bs-warning) !important;
+}
+.link-warning:hover, .link-warning:focus {
+  color: var(--bs-warning-active) !important;
+}
+
+

@@ -1,0 +1,305 @@
+.rowDepartDate { /*	margin-bottom: 0 !important;*/ }
+
+/**
+	* SoftVoyage VCO Styles
+	* @author Parcom Marketing [http://www.parcommarketing.com]
+	* @version 20100723.0800
+	*/
+/* @group Common */
+body.svSearchPage { font-family: Arial, Helvetica, sans-serif; font-size: 75%; line-height: 1.5; margin: 0; overflow: hidden; padding: 0; }
+
+/* @end */
+/* @group Search and Results Pages */
+.svSearch a:link, .svSearch a:visited, .svResults a:link, .svResults a:visited { color: RGB(0, 0, 255); text-decoration: underline; }
+.svSearch a:hover, .svSearch a:active, .svResults a:hover, .svResults a:active { color: RGB(0, 0, 255)/1.2; text-decoration: none; }
+.svSearch h1, .svSearch h2, .svSearch h3, .svSearch h4, .svSearch h5, .svSearch h6, .svResults h1, .svResults h2, .svResults h3, .svResults h4, .svResults h5, .svResults h6 { text-shadow: none; -moz-text-shadow: none; -webkit-text-shadow: none; text-transform: none; }
+.svSearch h3 em, .svResults h3 em { color: #505050; }
+.svSearch em, .svResults em { color: #505050; font-weight: bold; font-style: normal; }
+.svSearch em.required, .svResults em.required { display: inline-block; font-size: 1.5em; height: 0.85em; line-height: 0.85em; margin-right: 0.25em; vertical-align: -0.3em; *vertical-align: top; }
+.svSearch p.required, .svResults p.required { text-align: right; }
+.svSearch ol, .svSearch ul, .svResults ol, .svResults ul { margin: 0; padding: 0 0 0 25px; }
+.svSearch ol li, .svSearch ul li, .svResults ol li, .svResults ul li { margin-bottom: 0.675em; }
+.svSearch small, .svResults small { font-size: 0.917em; }
+.svSearch th, .svResults th { text-align: left; }
+.svSearch .shell thead, .svResults .shell thead { background-color: #505050; color: white; }
+.svSearch .shell thead a:link, .svSearch .shell thead a:visited, .svResults .shell thead a:link, .svResults .shell thead a:visited { color: white; text-decoration: underline; }
+.svSearch .shell thead a:hover, .svSearch .shell thead a:active, .svResults .shell thead a:hover, .svResults .shell thead a:active { text-decoration: none; }
+.svSearch .shell thead th, .svResults .shell thead th { text-align: left; }
+.svSearch .shell thead td, .svResults .shell thead td { font-size: 0.917em; text-align: right; }
+.svSearch .shell thead .price, .svResults .shell thead .price { color: white; }
+.svSearch .shell tbody, .svResults .shell tbody { background-color: #dedede; }
+.svSearch .shell tbody h3 em, .svResults .shell tbody h3 em { font-style: normal; }
+.svSearch .shell tfoot, .svResults .shell tfoot { background-color: #fff; }
+.svSearch .shell table tbody, .svResults .shell table tbody { background: transparent; }
+.svSearch .shell .taxes, .svResults .shell .taxes { text-align: right; }
+.svSearch .btn, .svResults .btn { background: transparent no-repeat 0 0; border: none; cursor: pointer; height: 34px; width: 138px; }
+.svSearch .btn b, .svResults .btn b { display: none; }
+.svSearch a.btn, .svResults a.btn { display: block; }
+.svSearch .actions, .svResults .actions { text-align: right; }
+.svSearch .border, .svResults .border { border: 1px solid #505050; }
+.svSearch .borderNoLeft, .svResults .borderNoLeft { border-left: none; }
+.svSearch .borderNoRight, .svResults .borderNoRight { border-right: none; }
+.svSearch .important, .svSearch .required, .svResults .important, .svResults .required { color: #900 !important; }
+
+/* @end */
+/* @group Search Pages */
+.svSearch { background-color: #dedede; -moz-user-select: none; -khtml-user-select: none; user-select: none; }
+.svSearch h2 { color: black; font-size: 1.833em; font-weight: normal; letter-spacing: normal; line-height: 1.2; text-transform: uppercase; }
+.svSearch form { margin: 0; }
+.svSearch label { color: black; display: block; font-weight: bold; margin-left: 3px; }
+.svSearch label.subLabel { color: black; display: inline; font-size: 0.917em; font-weight: normal; }
+.svSearch thead { margin: 0; padding: 0; }
+.svSearch th, .svSearch td { vertical-align: top; }
+.svSearch .btnSearch { background: transparent url(https://www.centreholidays.com/softvoyage/img/plain/btn-search.png) no-repeat 0 0; border: none; cursor: pointer; height: 33px; width: 126px; }
+.svSearch .btnSearch b { display: none; }
+.svSearch .column-1, .svSearch .column-2 { width: 50%; }
+.svSearch .fieldRow { clear: both; margin: 0 0 12px; overflow: hidden; }
+.svSearch .rowDepartDateFlexible { margin: -10px 1px -5px 0; text-align: right; }
+
+/* @end */
+/* @group Search Pages (IE6) */
+* html .svSearch .fieldRow { margin: 0; }
+* html .svSearch .rowDepartDateFlexible { margin-bottom: -5px; }
+* html .svSearch .rowDropoffTime label, * html .svSearch .rowPickupTime label { display: block; margin-top: 11px; }
+
+/* @end */
+/* @group Search Pages (IE7) */
+*:first-child + html .svSearch .fieldRow { margin: 0; }
+*:first-child + html .svSearch .tblNarrowBox .rowDepartDateFlexible { margin: 0 0 -10px 0; }
+*:first-child + html .svSearch .tblWideBox .rowDepartDateFlexible { margin: 0 12px -10px 0; }
+*:first-child + html .svSearch .rowDropoffTime, *:first-child + html .svSearch .rowPickupTime { margin-top: 12px; }
+
+/* @end */
+/* @group Search Containers */
+.svBox { background-color: #dedede; border-left: 1px solid #505050; border-right: 1px solid #505050; margin: 0 auto; }
+.svBox h2 { margin: 10px 0 5px; padding: 0; }
+
+/* @group Search Tables */
+.tblBox { margin: 0 auto; padding-bottom: 1em; }
+.tblBox td { white-space: nowrap; }
+
+.tblNarrowBox { width: 260px; }
+.tblNarrowBox input.fldDestination, .tblNarrowBox .fldDropoffCity, .tblNarrowBox .fldPickupCity { width: 250px; }
+.tblNarrowBox .rowDepartDate select, .tblNarrowBox .fldAirline, .tblNarrowBox .fldCarCategory, .tblNarrowBox .fldCarLocation, .tblNarrowBox .fldCarVendor, .tblNarrowBox .fldClass, .tblNarrowBox .fldDepartCity, .tblNarrowBox select.fldDestination, .tblNarrowBox .fldDuration, .tblNarrowBox .fldFlightType, .tblNarrowBox .fldHotel, .tblNarrowBox .fldRating { width: 258px; }
+.tblNarrowBox .fldDepartDate, .tblNarrowBox .fldDropoffDate, .tblNarrowBox .fldPickupDate, .tblNarrowBox .fldReturnDate { width: 250px; }
+.tblNarrowBox .hasDatePicker { width: 231px !important; }
+
+.tblWideBox { width: 400px; margin: 0 auto; }
+.tblWideBox .column-1 .fieldRow { margin-right: 1em; }
+.tblWideBox .column-2 .fieldRow { margin-left: 1em; }
+.tblWideBox input.fldDestination, .tblWideBox .fldDropoffCity, .tblWideBox .fldPickupCity { width: 179px; }
+.tblWideBox .rowDepartDate select, .tblWideBox .fldAirline, .tblWideBox .fldCarCategory, .tblWideBox .fldCarLocation, .tblWideBox .fldCarVendor, .tblWideBox .fldClass, .tblWideBox .fldDepartCity, .tblWideBox select.fldDestination, .tblWideBox .fldDuration, .tblWideBox .fldFlightType, .tblWideBox .fldHotel, .tblWideBox .fldRating { width: 186px; }
+.tblWideBox .fldDepartDate, .tblWideBox .fldDropoffDate, .tblWideBox .fldPickupDate, .tblWideBox .fldReturnDate { width: 179px; }
+.tblWideBox .hasDatePicker { width: 160px !important; }
+
+/* @end */
+/* @end */
+/* @group Results Pages */
+.svResults h1 { font-size: 2em; font-weight: normal; line-height: 1; margin-bottom: 0.1em; }
+.svResults h2 { color: #000; font-size: 1.33em; line-height: 1; margin: 0; padding: 0; }
+.svResults h3 { color: black; margin-top: 0; }
+.svResults h3 em { color: black; }
+.svResults hr.overscore { border: none; border-top: 3px double #505050; height: 3px; }
+.svResults hr.underscore { border: none; border-bottom: 1px solid #888888; border-top: 1px solid #cccccc; height: 2px; }
+.svResults tr.overscore th, .svResults tr.overscore td, .svResults tr.underscore th, .svResults tr.underscore td { padding: 0 5px !important; }
+.svResults fieldset { border: none; }
+.svResults fieldset legend { color: #505050; }
+.svResults legend { font-weight: bold; white-space: normal; margin-bottom: 1em; }
+.svResults tbody td, .svResults tfoot td { padding: 5px 15px; }
+.svResults tbody h3, .svResults tbody p.taxes { margin-bottom: 10px; }
+.svResults tbody p { margin-top: 0; }
+.svResults .shell, .svResults .pager, .svResults .tblFilterBox, .svResults .tblSortBox, .svResults .actions { width: 100%; }
+.svResults .shell { margin: 1.5em 0 0 0; }
+.svResults .shell h2 { color: white; }
+.svResults .shell table th, .svResults .shell table td { padding: 5px; }
+.svResults .shell th, .svResults .shell td { vertical-align: top; }
+.svResults .shell thead h2, .svResults .shell thead h3, .svResults .shell thead p { margin: 0; }
+.svResults .shell thead th, .svResults .shell thead td { padding: 0.7em 10px; }
+.svResults .shell tbody p { margin: 0 0 0.75em 0; }
+.svResults .shell tfoot th, .svResults .shell tfoot td { padding: 0.25em 10px; }
+.svResults .tblFilterBox, .svResults .tblSortBox { background-color: #fff; border-collapse: collapse; margin: 0.75em 0; }
+.svResults .tblFilterBox th, .svResults .tblFilterBox td, .svResults .tblSortBox th, .svResults .tblSortBox td { border: 1px solid #505050; padding: 0.5em; vertical-align: bottom; }
+.svResults .tblFilterBox th, .svResults .tblFilterBox td { text-align: center; }
+.svResults .tblFilterBox .column-1 { text-align: left; }
+.svResults .pager { background-color: #fff; }
+.svResults .tblFeatures { margin: 0.5em 0 0 0 !important; }
+.svResults .tblFeatures table td { padding: 5px 0 !important; }
+.svResults .tblFeatures thead th, .svResults .tblFeatures thead td, .svResults .tblFeatures tbody th, .svResults .tblFeatures tbody td, .svResults .tblFeatures tfoot th, .svResults .tblFeatures tfoot td { padding: 5px !important; }
+.svResults .tblFeatures thead { color: #fff !important; }
+.svResults .tblFeatures thead a:link, .svResults .tblFeatures thead a:visited { color: #FFF; }
+.svResults .tblFeatures thead h2, .svResults .tblFeatures thead h3 { color: #FFF; }
+.svResults .tblFeatures thead th h2 { font-size: 1.167em; }
+.svResults .tblFeatures thead th h3 { font-size: 1.083em; }
+.svResults .tblFeatures .column-3 { text-align: right; }
+.svResults .tblFilterBox .column-1 { width: 100%; }
+.svResults .tblContactInfo .fldDayPhone, .svResults .tblContactInfo .fldEvePhone, .svResults .tblContactInfo .fldEmail, .svResults .tblContactInfo .fldVerifyEmail, .svResults .tblContactInfo .fldAddress, .svResults .tblContactInfo .fldCity, .svResults .tblContactInfo .fldPostal, .svResults .tblContactInfo .fldPassengerFirstName, .svResults .tblContactInfo .fldPassengerLastName { width: 100px; }
+.svResults .tblContactInfo .fldDayPhoneExt { width: 30px; }
+.svResults .tblContactInfo .fldProvince { width: 105px; }
+.svResults .tblPassengerInfo .fldPassengerFirstName { width: 140px; }
+.svResults .tblPassengerInfo .fldPassengerLastName { width: 140px; }
+.svResults .tblPaymentInfo .fldCardName, .svResults .tblPaymentInfo .fldCardNumber { width: 140px; }
+.svResults .tblPaymentInfo .fldCardType { width: 145px; }
+.svResults .tblPaymentInfo .fldCardVerification { width: 45px; }
+.svResults .tblBillingInfo .fldCardAddress, .svResults .tblBillingInfo .fldCardCity, .svResults .tblBillingInfo .fldCardPostal { width: 140px; }
+.svResults .tblBillingInfo .fldCardProvince, .svResults .tblBillingInfo .fldCardCountry { width: 145px; }
+.svResults .tblHotelDetails thead th { width: 100%; }
+.svResults .tblHotelDetails .column-3 { text-align: right; }
+.svResults .tblPriceDetails table tbody th, .svResults .tblPriceDetails table tbody td { padding-bottom: 2px; padding-top: 2px; }
+.svResults .total { color: #222222; font-size: 1.5em; font-weight: bold; text-transform: uppercase; }
+.svResults .total em { color: #505050; font-style: normal; text-align: right; }
+.svResults .btnConfirmAvailability { background-image: url(https://www.centreholidays.com/softvoyage/img/plain/btn-confirm_availability.png); }
+.svResults .btnContinueBooking { background-image: url(https://www.centreholidays.com/softvoyage/img/plain/btn-continue_booking.png); }
+.svResults .btnProceedToPrice { background-image: url(https://www.centreholidays.com/softvoyage/img/plain/btn-proceed_to_price.png); }
+.svResults .btnPurchase { background-image: url(https://www.centreholidays.com/softvoyage/img/plain/btn-purchase.png); }
+.svResults .btnPurchaseThis { background-image: url(https://www.centreholidays.com/softvoyage/img/plain/btn-purchase_this.png); }
+.svResults .btnReturnToHotelList { background-image: url(https://www.centreholidays.com/softvoyage/img/plain/btn-return_to_hotel_list.png); }
+.svResults .btnUpdatePriceDetails { background-image: url(https://www.centreholidays.com/softvoyage/img/plain/btn-update_price_details.png); }
+.svResults .btnVerifyPrice { background-image: url(https://www.centreholidays.com/softvoyage/img/plain/btn-verify_price.png); }
+.svResults .fieldRow { margin-bottom: 0.5em; }
+.svResults .fieldRow label { display: inline-block; vertical-align: -0.05em; }
+.svResults .fieldRow label.medium { width: 180px; }
+.svResults .fieldRow label.short { width: 110px; }
+.svResults .fieldRow label em { color: #900 !important; margin-right: .25em; }
+.svResults .fieldRow ul { list-style: none; padding-left: 0; }
+.svResults .fieldRow .last { margin-bottom: 2em; }
+.svResults .pager { margin: 1.5em 0 0 0; }
+.svResults .pager tbody td { padding: 0.25em 10px; }
+.svResults .starRating { background: transparent url(https://www.centreholidays.com/softvoyage/img/plain/stars.png) no-repeat 100% 0; _background-image: url(https://www.centreholidays.com/softvoyage/img/plain/stars-ie.png); display: -moz-inline-stack; display: inline-block; *display: inline; height: 17px; margin-left: .25em; width: 0; *zoom: 1; }
+.svResults .starRating b { display: none; }
+.svResults .oneStar, .svResults .twoStar, .svResults .threeStar, .svResults .fourStar, .svResults .fiveStar { background-position: 0 0; }
+.svResults .halfStar, .svResults .oneStar { width: 17px; }
+.svResults .oneHalfStar, .svResults .twoStar { width: 34px; }
+.svResults .twoHalfStar, .svResults .threeStar { width: 51px; }
+.svResults .threeHalfStar, .svResults .fourStar { width: 68px; }
+.svResults .fourHalfStar, .svResults .fiveStar { width: 85px; }
+.svResults .monarchRatingWrap { text-align: center; }
+
+/* @end */
+/* @group Search Progress Page */
+.svWait { height: 300px; margin: 2em auto; width: 317px; }
+.svWait h1 { background: transparent url(https://www.centreholidays.com/softvoyage/img/plain/spinning_globe.gif) no-repeat 0 0; height: 300px; margin: 0; width: 317px; }
+.svWait h1 b { display: none; }
+
+/* @end */
+/* @group Rounded Corners */
+.svBBottom, .svBTop { background: white; display: block; font-size: 1px; }
+
+.svBBottom .svB2, .svBBottom .svB3, .svBBottom .svB4 { background: #dedede; }
+
+.svBTop .svB2, .svBTop .svB3, .svBTop .svB4 { background: #fff; }
+
+.svB1, .svB2, .svB3, .svB4 { display: block; overflow: hidden; }
+
+.svB1, .svB2, .svB3 { height: 1px; }
+
+.svB2, .svB3, .svB4 { border-left: 1px solid #505050; border-right: 1px solid #505050; }
+
+.svB1 { background: #505050; margin: 0 5px; }
+
+.svB2 { border-width: 0 2px; margin: 0 3px; }
+
+.svB3 { margin: 0 2px; }
+
+.svB4 { height: 2px; margin: 0 1px; }
+
+/* @end */
+/* @group jQuery UI */
+.svColorTitle { color: #000 !important; }
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #126b8b !important; }
+
+.ui-widget-header { background-color: #666666 !important; }
+
+#ajax_autocomplete .optionDivSelected { background-color: #666666 !important; }
+
+/* @end */
+/* @group Date picker */
+input.fd-hidden-input, select.fd-hidden-input { display: none; }
+
+.fd-screen-reader { position: absolute; left: -999em; top: 0; width: 1px; height: 1px; overflow: hidden; outline: 0 none; -moz-outline: 0 none; }
+
+a.dp-disabled { opacity: .3 !important; filter: alpha(opacity=40); }
+
+.dp-disabled { cursor: default !important; }
+.dp-disabled table { opacity: .3 !important; filter: alpha(opacity=40); }
+.dp-disabled td { cursor: default !important; }
+.dp-disabled th { cursor: default !important; }
+.dp-disabled th span { cursor: default !important; }
+
+a.date-picker-control:focus { overflow: hidden; outline: 0 none; -moz-outline: 0 none; color: #6482aa !important; }
+
+div.datePicker { left: auto !important; top: 5px !important; right: 5px !important; position: absolute; z-index: 9999; text-align: center; font: 900 0.8em/1em Verdana, Sans-Serif; background: transparent; -moz-user-select: none; -khtml-user-select: none; }
+div.datePicker table td:focus { overflow: hidden; outline: 0 none; -moz-outline: 0 none; color: #6482aa !important; }
+div.static-datepicker { position: relative; top: 5px; left: 0; }
+div.datePicker table { width: auto; height: auto; border-collapse: separate; }
+div.datePicker tfoot th.drag-enabled { cursor: move; }
+div.datePicker thead th.drag-enabled { cursor: move; }
+div.datePicker thead th.drag-enabled span { cursor: move; }
+
+iframe.iehack { position: absolute; background: #fff; z-index: 9998; padding: 0; border: 0; display: none; margin: 0; }
+
+a.date-picker-control:link, a.date-picker-control:visited { position: relative; display: -moz-inline-stack; border: 0 none; padding: 0; margin: 0 0 0 4px; background: transparent url(https://www.centreholidays.com/softvoyage/img/plain/date_picker.png) no-repeat 50% 50%; min-width: 16px; line-height: 1; cursor: pointer; visibility: visible; text-decoration: none; vertical-align: top; }
+
+* html a.date-picker-control { width: 16px; }
+
+a.date-picker-control { display: inline-block; }
+a.date-picker-control span { display: block; width: 16px; height: 16px; margin: auto 0; }
+
+div.datePicker thead th span { display: block; padding: 0; margin: 0; text-align: center; line-height: 1em; border: 0 none; background: transparent; font-weight: bold; cursor: pointer; }
+div.datePicker th span.month-display, div.datePicker th span.year-display { display: inline; text-transform: uppercase; letter-spacing: 1px; font: normal 1.2em Verdana, Sans-Serif; cursor: default; }
+div.datePicker th span.prev-but, div.datePicker th span.next-but { font-weight: lighter; font-size: 2.4em; font-family: georgia, times new roman, palatino, times, bookman, serif; cursor: pointer !important; }
+div.datePicker th span.prev-but:hover, div.datePicker th span.next-but:hover { color: #a84444; }
+div.datePicker th span.today-but { text-align: center; margin: 0 auto; font: normal 1em Verdana, Sans-Serif; width: 100%; text-decoration: none; padding-top: 0.3em; text-transform: uppercase; vertical-align: middle; cursor: pointer !important; }
+div.datePicker th span.today-but:hover { color: #a84444; }
+div.dp-disabled th span.prev-but, div.dp-disabled th span.next-but, div.dp-disabled th span.today-but, div.dp-disabled th span.prev-but:hover, div.dp-disabled th span.next-but:hover, div.dp-disabled th span.today-but:hover { color: #aaa; cursor: default !important; opacity: 1; }
+div.datePicker th span.prev-but.fd-disabled:hover, div.datePicker th span.next-but.fd-disabled:hover { color: #aaa; cursor: default !important; opacity: 1; }
+div.datePicker thead th span.fd-disabled { color: #aaa; cursor: default !important; opacity: 1; }
+div.datePicker th span.fd-disabled:hover { color: #aaa; cursor: default !important; opacity: 1; }
+div.datePicker th span.fd-day-header { text-align: center; margin: 0 auto; font: 900 1em Verdana, Sans-Serif; text-decoration: none; text-transform: lowercase; cursor: pointer; }
+div.datePicker table { margin: 0; padding: 0; border: 1px solid #505050; background-color: #d2d2d2; text-align: center; border-spacing: 2px; padding: 0.3em; width: auto; empty-cells: show; border-radius: 0.8em; -moz-border-radius: 0.8em; -moz-box-shadow: 0px 0px 5px #aaa; }
+div.datePicker table td, div.datePicker table tbody th { border: 0 none; padding: 0; text-align: center; vertical-align: middle; cursor: pointer; background-color: #fff; width: 3em; height: 3em; overflow: hidden; outline: transparent none 0px; border: 1px solid #ccc; text-transform: none; -moz-border-radius: 2px; border-radius: 2px; }
+div.datePicker table td:focus, div.datePicker table td:active { outline: 0 none red; }
+div.datePicker table th { border: 0 none; padding: 0; font-weight: bold; color: #222; text-align: center; vertical-align: middle; text-transform: none; }
+div.datePicker table thead th { height: auto !important; }
+div.datePicker table tbody th { border: 1px solid #dcdcdc; }
+div.datePicker table thead th.date-picker-week-header, div.datePicker table tbody th.date-picker-week-header { font-style: oblique; background: transparent; cursor: default; }
+div.datePicker table thead th.date-picker-week-header { cursor: help; border: 0 none; padding: 0 0 0.2em 0; }
+div.datePicker tfoot th { cursor: default; font-weight: normal; text-transform: uppercase; letter-spacing: 0.1em; border: 0 none; background: #fff; height: 2.8em; }
+div.datePicker table tbody td.date-picker-unused { background: #fff; border-color: #dcdcdc; cursor: default !important; }
+div.datePicker table thead th.date-picker-title { width: auto; height: auto; padding: 0.4em 0; }
+div.datePicker table thead th.date-picker-day-header { text-transform: lowercase; cursor: help; height: auto; }
+div.datePicker table tbody td.date-picker-today { background: #fff; color: #646464 !important; }
+div.datePicker table tbody td.month-out.date-picker-highlight { color: #aa8866 !important; }
+div.datePicker table tbody td.date-picker-highlight { color: #a86666 !important; }
+div.datePicker table thead th.date-picker-highlight { color: #a86666 !important; }
+div.datePicker table tbody td.date-picker-hover { background: #fff; cursor: pointer; border-color: #6482aa !important; color: #6482aa; text-shadow: 0px 1px 1px #fff; }
+div.datePicker table tbody td.day-disabled { background: #fff; color: #aaa !important; cursor: default; text-decoration: line-through !important; }
+div.datePicker table tbody td.month-out { border-color: #ddd; color: #aaa !important; background: #fff; }
+div.datePicker table tbody td.date-picker-selected-date { color: #333 !important; border-color: #333 !important; }
+div.datePicker table tbody td.out-of-range, div.datePicker table tbody td.not-selectable { color: #ccc !important; font-style: oblique; background: #fcfcfc !important; cursor: default !important; }
+div.datePicker table tbody th.month-out { color: #aaa !important; font-style: oblique; background: #fcfcfc !important; }
+div.datePicker table tbody th.out-of-range { color: #aaa !important; font-style: oblique; background: #fcfcfc !important; opacity: 0.6; filter: alpha(opacity=60); }
+div.datePicker table tbody td.not-selectable { opacity: 0.8; filter: alpha(opacity=80); }
+div.datePicker table tbody tr { display: table-row; }
+div.datePicker table tfoot sup { font-size: 0.86em; letter-spacing: normal; text-transform: none; height: 0; line-height: 1; position: relative; top: -0.2em; vertical-align: baseline !important; vertical-align: top; }
+div.datePicker table thead th.date-picker-day-header { text-shadow: 0px 1px 1px #fff; }
+div.datePicker table thead span.month-display, div.datePicker table thead span.year-display { text-shadow: 0px 1px 1px #fff; }
+div.datepicker-focus table.datePickerTable { border-color: #999 !important; }
+div.datePicker table tbody tr td:focus, div.datePicker table tbody td.date-picker-hover { overflow: hidden; outline: 0px solid #ff0000; -moz-outline: 0 none; -o-highlight: 0 none; color: #6482aa !important; }
+div.static-datepicker table { -moz-box-shadow: 0 0 0 transparent; }
+div.datepicker-focus table { outline: none; -moz-box-shadow: 0px 0px 5px #aaa; }
+
+*:-o-prefocus { outline: -o-highlight-border; }
+* html div.datePicker table td { background-image: none; }
+* html div.datePicker table td.date-picker-unused { background: #f2f2f2; }
+
+body.fd-drag-active { -moz-user-select: none; -webkit-user-select: none; user-select: none; }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { div.datePicker table { border-spacing: 0.3em; -webkit-box-shadow: 0px 0px 5px #aaa; -webkit-border-radius: 0.8em; }
+  div.static-datepicker table { -webkit-box-shadow: 0 0 0 transparent; }
+  div.datepicker-focus table { -webkit-box-shadow: 0px 0px 5px #aaa; }
+  div.datePicker table td { padding: 0.1em; -webkit-border-radius: 2px; }
+  div.datePicker table tbody th { padding: 0.1em; -webkit-border-radius: 2px; }
+  div.datePicker table tbody td.date-picker-hover { -webkit-box-shadow: 0px 0px 1px #6482aa; } }
+
+/* @end */

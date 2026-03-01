@@ -1,0 +1,666 @@
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . "https://%{SERVER_NAME}/index.php" [R=301,L]
+#RewriteRule . "https\:\/\/www\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^anna\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.anna\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/anna\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^shoba\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.shoba\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/shoba\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^6ixtravels\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.6ixtravels\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/6ixtravels\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^accessvacations\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.accessvacations\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/accessvacations\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^almaz\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.almaz\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/almaz\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^amy\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.amy\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/amy\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^aneztravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.aneztravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/aneztravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^angela\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.angela\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/angela\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^barbara\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.barbara\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/barbara\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^bavan\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bavan\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/bavan\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^bbtravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bbtravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/bbtravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^bobbi\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bobbi\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/bobbi\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^bonita\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bonita\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/bonita\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^bozena\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bozena\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/bozena\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^toseetheworld\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.toseetheworld\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/toseetheworld\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^luxvacations\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.luxvacations\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/luxvacations\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^bpt\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bpt\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/bpt\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^brett\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.brett\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/brett\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^canadianmousetrips\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.canadianmousetrips\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/canadianmousetrips\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^cara\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cara\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/cara\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^caribbeandreamin\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.caribbeandreamin\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/caribbeandreamin\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^caroline\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.caroline\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/caroline\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^celine\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.celine\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/celine\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^cheapvacationpackages\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cheapvacationpackages\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/cheapvacationpackages\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^chloe\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.chloe\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/chloe\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^chrisandconnie\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.chrisandconnie\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/chrisandconnie\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^claudie\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.claudie\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/claudie\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^countrysidetravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.countrysidetravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/countrysidetravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^cstravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cstravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/cstravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^dana\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dana\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/dana\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^daniela\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.daniela\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/daniela\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^darlingholidays\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.darlingholidays\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/darlingholidays\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^dawn\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dawn\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/dawn\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^dfztravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dfztravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/dfztravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^dibtravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dibtravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/dibtravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^dionne\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dionne\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/dionne\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^discover\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.discover\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/discover\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^don\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.don\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/don\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^donnam\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.donnam\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/donnam\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^dserrano\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dserrano\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/dserrano\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^edentravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.edentravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/edentravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^eileen\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.eileen\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/eileen\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^elanob\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.elanob\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/elanob\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^fabrikis\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.fabrikis\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/fabrikis\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^fasttrack\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.fasttrack\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/fasttrack\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^flamantravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.flamantravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/flamantravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^freedomflyerz\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.freedomflyerz\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/freedomflyerz\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^funinthesun\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.funinthesun\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/funinthesun\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^gerry\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gerry\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/gerry\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^gillrirao\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gillrirao\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/gillrirao\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^glitzytravels\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.glitzytravels\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/glitzytravels\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^globalvillagetravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.globalvillagetravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/globalvillagetravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^globetrotting\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.globetrotting\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/globetrotting\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^goanywheretravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.goanywheretravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/goanywheretravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^groupsareus\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.groupsareus\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/groupsareus\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grouptrips4less\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grouptrips4less\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/grouptrips4less\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^gtan\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gtan\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/gtan\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^gwmousetrips\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gwmousetrips\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/gwmousetrips\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^hanita\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.hanita\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/hanita\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^harrybabu\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.harrybabu\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/harrybabu\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^idealtravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.idealtravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/idealtravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^impactvacations\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.impactvacations\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/impactvacations\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^impresstravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.impresstravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/impresstravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^ineza\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ineza\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/ineza\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^jamiew\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.jamiew\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/jamiew\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^janicer\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.janicer\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/janicer\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^jans\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.jans\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/jans\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^jennyz\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.jennyz\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/jennyz\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^jillm\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.jillm\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/jillm\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^joanstravelbiz\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.joanstravelbiz\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/joanstravelbiz\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^jollydestinations\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.jollydestinations\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/jollydestinations\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^jules\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.jules\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/jules\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^justina\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.justina\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/justina\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^justintimetravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.justintimetravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/justintimetravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^keetravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.keetravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/keetravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^kerrih\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.kerrih\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/kerrih\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^kmttravels\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.kmttravels\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/kmttravels\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^kristinh\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.kristinh\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/kristinh\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^laislatravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.laislatravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/laislatravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^lama\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.lama\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/lama\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^lana\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.lana\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/lana\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^lastminutetraveldeals\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.lastminutetraveldeals\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/lastminutetraveldeals\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^laz\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.laz\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/laz\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^leconte\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.leconte\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/leconte\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^lextravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.lextravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/lextravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^limogestravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.limogestravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/limogestravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^lindsays\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.lindsays\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/lindsays\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^lnltravels\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.lnltravels\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/lnltravels\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^luna\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.luna\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/luna\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^lynette\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.lynette\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/lynette\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^magictravels\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.magictravels\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/magictravels\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mahanatravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mahanatravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/mahanatravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mandana\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mandana\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/mandana\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mantaraytravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mantaraytravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/mantaraytravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^marcial\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.marcial\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/marcial\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^marg\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.marg\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/marg\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^maria\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.maria\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/maria\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^melody\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.melody\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/melody\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^michelle\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.michelle\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/michelle\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^michellec\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.michellec\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/michellec\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mj\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mj\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/mj\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^monika\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.monika\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/monika\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^morristravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.morristravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/morristravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mpibusiness\.leisuretravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mpibusiness\.leisuretravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/mpibusiness\.leisuretravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^norm\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.norm\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/norm\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^nuriaf\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.nuriaf\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/nuriaf\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^oksana\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.oksana\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/oksana\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^onthegotravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.onthegotravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/onthegotravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^orbis\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.orbis\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/orbis\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^oscar\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.oscar\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/oscar\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^owenstravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.owenstravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/owenstravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^primeviewtravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.primeviewtravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/primeviewtravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^pts\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.pts\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/pts\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^rajiflights\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rajiflights\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/rajiflights\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^raturi\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.raturi\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/raturi\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^rebecca\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rebecca\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/rebecca\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^reneet\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.reneet\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/reneet\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^rj\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rj\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/rj\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^robertam\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.robertam\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/robertam\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^roseringholidays\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.roseringholidays\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/roseringholidays\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^rosesantos\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rosesantos\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/rosesantos\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^sabrina\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sabrina\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/sabrina\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^sainishtravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sainishtravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/sainishtravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^sammy\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sammy\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/sammy\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^santocono\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.santocono\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/santocono\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^sarahb\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sarahb\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/sarahb\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^sendmeaway\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sendmeaway\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/sendmeaway\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^shalomtravels\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.shalomtravels\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/shalomtravels\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^sherbatravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sherbatravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/sherbatravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^shiya\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.shiya\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/shiya\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^silvertravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.silvertravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/silvertravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^smtk\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.smtk\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/smtk\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^southcoasttravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.southcoasttravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/southcoasttravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^stressawayholidays\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.stressawayholidays\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/stressawayholidays\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^suereimer\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.suereimer\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/suereimer\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^sunnydestinations\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sunnydestinations\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/sunnydestinations\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^sunscursion\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sunscursion\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/sunscursion\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^susanb\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.susanb\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/susanb\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^susanbains\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.susanbains\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/susanbains\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^tammyf\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.tammyf\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/tammyf\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^tanyag\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.tanyag\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/tanyag\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^theepan\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.theepan\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/theepan\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^thetravelingagent\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.thetravelingagent\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/thetravelingagent\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^thi\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.thi\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/thi\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^tinabobb\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.tinabobb\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/tinabobb\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^toniat\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.toniat\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/toniat\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^travel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.travel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/travel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^travelbychass\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.travelbychass\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/travelbychass\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^travelbyshiya\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.travelbyshiya\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/travelbyshiya\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^traveldelite\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.traveldelite\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/traveldelite\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^travelexpress\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.travelexpress\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/travelexpress\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^travellingchicken\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.travellingchicken\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/travellingchicken\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^traveltime\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.traveltime\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/traveltime\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^travelwithami\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.travelwithami\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/travelwithami\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^travelwithbrenda\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.travelwithbrenda\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/travelwithbrenda\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^travelwithpat\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.travelwithpat\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/travelwithpat\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^travelwithsenta\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.travelwithsenta\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/travelwithsenta\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^tyler\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.tyler\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/tyler\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^vacateyourlife\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.vacateyourlife\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/vacateyourlife\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^vacation\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.vacation\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/vacation\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^vacations\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.vacations\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/vacations\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^vanbelletravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.vanbelletravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/vanbelletravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^venus\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.venus\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/venus\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^victoryvacations\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.victoryvacations\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/victoryvacations\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^wilfred\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.wilfred\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/wilfred\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^worldtravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.worldtravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/worldtravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^yourwaytravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.yourwaytravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/yourwaytravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^kristine\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.kristine\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/kristine\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^nesscapetravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.nesscapetravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/nesscapetravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^jptravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.jptravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/jptravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^travelchic\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.travelchic\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/travelchic\.centreholidays\.com\/index\.php" [R=301,L]
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_flag asp_tags Off
+   php_flag display_errors Off
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 64M
+   php_value post_max_size 8M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php55"
+   php_value upload_max_filesize 2M
+   php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+   php_flag asp_tags Off
+   php_flag display_errors Off
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 64M
+   php_value post_max_size 8M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php55"
+   php_value upload_max_filesize 2M
+   php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+RewriteCond %{HTTP_HOST} ^carolinesvacations\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.carolinesvacations\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/carolinesvacations\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^worldtravelagency\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.worldtravelagency\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/worldtravelagency\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^bestchain\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bestchain\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/bestchain\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^djsairtravelntour\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.djsairtravelntour\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/djsairtravelntour\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^phary\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.phary\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/phary\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^adamz\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.adamz\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/adamz\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^heidi\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.heidi\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/heidi\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^leahfrost\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.leahfrost\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/leahfrost\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^martine\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.martine\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/martine\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^marija\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.marija\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/marija\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^takemeaway\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.takemeaway\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/takemeaway\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^vacationlovers\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.vacationlovers\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/vacationlovers\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^praba\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.praba\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/praba\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^sueberube\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sueberube\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/sueberube\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^raman\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.raman\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/raman\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^redchillitravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.redchillitravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/redchillitravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^boratravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.boratravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/boratravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^arcillaaloha\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.arcillaaloha\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/arcillaaloha\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^travelwithgreg\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.travelwithgreg\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/travelwithgreg\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^noraconde\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.noraconde\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/noraconde\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^katrina\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.katrina\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/katrina\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^coasttocoasttravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.coasttocoasttravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/coasttocoasttravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^premiumvacations\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.premiumvacations\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/premiumvacations\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^atobluxury\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.atobluxury\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/atobluxury\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^travellinghayes\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.travellinghayes\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/travellinghayes\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^nicolemb\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.nicolemb\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/nicolemb\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^sandrao\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sandrao\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/sandrao\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^jeremydwyer\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.jeremydwyer\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/jeremydwyer\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^marigoldtravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.marigoldtravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/marigoldtravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^melissa\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.melissa\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/melissa\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^atifatours\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.atifatours\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/atifatours\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^akbar\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.akbar\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/atifatours\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^orchidtravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.orchidtravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/orchidtravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^unravelworldtravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.unravelworldtravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/unravelworldtravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^worldvoyages\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.worldvoyages\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/unravelworldtravel\.centreholidays\.com\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^younmetravel\.centreholidays\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.younmetravel\.centreholidays\.com$
+RewriteRule ^/?$ "https\:\/\/younmetravel\.centreholidays\.com\/index\.php" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php55” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php55 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

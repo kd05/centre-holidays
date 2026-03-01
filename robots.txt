@@ -1,0 +1,9 @@
+Sitemap: https://centreholidays.com/sitemaps/sitemap.xml
+Sitemap: https://centreholidays.com/sitemaps/sitemap_video.xml
+Sitemap: https://centreholidays.com/sitemaps/sitemap_images.xml
+
+User-agent: *
+Disallow: /geolocation/
+Disallow: /agents/
+Disallow: /img/agents/
+Disallow: /img/certifications/
