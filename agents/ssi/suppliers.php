@@ -68,7 +68,7 @@ if (mysqli_num_rows($result) > 0) {
     <div class="card card-custom card-border card-stretch">
 <!--begin::Body-->
 <div class="card-body p-0 d-flex flex-column">
-<img class="img-responsive card-rounded-top" src="/img/agents/supplier-details/<?php echo $row['afhimage']; ?>" alt="<?php echo $row['affiliatename']; ?>">
+<img class="img-responsive card-rounded-top" src="/img/agents/suppliers/<?php echo $row['afhimage']; ?>" alt="<?php echo $row['affiliatename']; ?>">
 <div class="row">
 <!--begin::Label-->
 <div class="col-xl-12 d-flex flex-center mt-n6"><span class="label label-xl font-weight-boldest label-inline label-white px-5 py-3 text-uppercase font-weight-bolder text-danger"><?php if ($row['preferred']=='1')  { ?>Preferred <?php } ?>Supplier</span>

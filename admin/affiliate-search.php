@@ -128,7 +128,7 @@ $background='#fff';
 if (!empty($row['affiliatesqimage']))
 {
 ?>
-<img src="<?php echo "https://centreholidays.com/img/agents/supplier-details/".$row['affiliatesqimage']; ?>" style="max-width:80px; height:80px; max-height:80px; margin:5px" />
+<img src="<?php echo "https://centreholidays.com/img/agents/suppliers/".$row['affiliatesqimage']; ?>" style="max-width:80px; height:80px; max-height:80px; margin:5px" />
 <?php
 	}
 ?>

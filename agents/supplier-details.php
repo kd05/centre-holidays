@@ -32,7 +32,7 @@
 <div id="carouselExampleControls" class="carousel slide carousel-fade" data-interval="10000" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-  <div class="img"><img class="d-block w-100" src="/img/agents/supplier-details/<?php echo $cafhimage ?>" alt="<?php echo $affiliatename ?>"></div>
+  <div class="img"><img class="d-block w-100" src="/img/agents/suppliers/<?php echo $cafhimage ?>" alt="<?php echo $affiliatename ?>"></div>
 </div>
   </div>
 </div>

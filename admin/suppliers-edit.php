@@ -198,7 +198,7 @@ else
                                                                            value="<?php echo $row['cafhimage']; ?>"/>
                                                                     <?php if (!empty($row['cafhimage'])) { ?>
                                                                         <br /><br />
-                                                                        <img src="<?php echo "https://centreholidays.com/img/agents/supplier-details/".$row['cafhimage']; ?>"
+                                                                        <img src="<?php echo "https://centreholidays.com/img/agents/suppliers/".$row['cafhimage']; ?>"
                                                                              style="max-width:300px; max-height:80px; margin-bottom:10px" />
                                                                     <?php } ?>
                                                                 </td>
@@ -211,7 +211,7 @@ else
                                                                            value="<?php echo $row['afhimage']; ?>"/>
                                                                     <?php if (!empty($row['afhimage'])) { ?>
                                                                         <br /><br />
-                                                                        <img src="<?php echo "https://centreholidays.com/img/agents/supplier-details/".$row['afhimage']; ?>"
+                                                                        <img src="<?php echo "https://centreholidays.com/img/agents/suppliers/".$row['afhimage']; ?>"
                                                                              style="max-width:300px; max-height:80px; margin-bottom:10px" />
                                                                     <?php } ?>
                                                                 </td>
@@ -224,7 +224,7 @@ else
                                                                            value="<?php echo $row['affiliatesqimage']; ?>"/>
                                                                     <?php if (!empty($row['affiliatesqimage'])) { ?>
                                                                         <br /><br />
-                                                                        <img src="<?php echo "https://centreholidays.com/img/agents/supplier-details/".$row['affiliatesqimage']; ?>"
+                                                                        <img src="<?php echo "https://centreholidays.com/img/agents/suppliers/".$row['affiliatesqimage']; ?>"
                                                                              style="max-width:80px; height:80px; max-height:80px; margin-bottom:10px" />
                                                                     <?php } ?>
                                                                 </td>
