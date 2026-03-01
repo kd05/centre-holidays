@@ -329,10 +329,19 @@ $agent_counts = get_dashboard_agent_counts();
                                         <!--begin::Card title-->
                                         <div class="card-title">
                                             <!--begin::Title-->
-                                        <div class="fs-2qx fw-bold text-dark">
-                                            Blocked Travel Advisors</div>
-                                            <!--end::Title-->
+                                            <div class="fs-2qx fw-bold text-dark">
+                                                Blocked Travel Advisors
+                                            </div>
+                                                <!--end::Title-->
                                         </div>
+
+
+                                        <a href="black-list.php">
+                                            <button type="button" class="btn btn-light-primary me-3">
+                                                <i class="ki-duotone ki-exit-up fs-2"><span class="path1"></span><span class="path2"></span></i> Black List
+                                            </button>
+                                        </a>
+
                                         <!--begin::Card title-->
                                     </div>
                                     <!--end::Card header-->
