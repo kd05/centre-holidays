@@ -63,38 +63,33 @@
 
 		<!--begin::Topbar-->
 		<div class="topbar">
-		    		    			            <!--begin::Search-->
-		    		<div class="dropdown" id="kt_quick_search_toggle">
-		                <!--begin::Toggle-->
-		                <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
-		        			<div class="btn btn-icon btn-clean btn-lg btn-dropdown mr-1">
-		        				<span><!--begin::Icon--><i class="fas fa-search text-warning"></i><!--end::Icon--></span>		        			</div>
-		                </div>
-		                <!--end::Toggle-->
-
-		                <!--begin::Dropdown-->
-		    			<div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
-		    				<div class="quick-search quick-search-dropdown" id="kt_quick_search_dropdown">
-    <!--begin:Form-->
-
-    <form enctype="multipart/form-data" action="https://centreholidays.com/agents/search-results.php" method="get">
-        <div class="input-group">
-            
-            <input required type="text" name="searchaffilter" id="searchaffilter" class="form-control form-control-lg" placeholder="Search"/>
-            <div class="input-group-append">
-                <button class="btn btn-warning" type="submit">
-                <i class="fas fa-search text-light"></i>
-                </button>              
-                </span>
-            </div>            
-        </div>
-    </form>
-    <!--end::Form-->
-</div>
-		    			</div>
-		                <!--end::Dropdown-->
-		    		</div>
+		    		    <!--begin::Search-->
+<!--                    <div class="dropdown" id="kt_quick_search_toggle">-->
+<!--                        <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">-->
+<!--                            <div class="btn btn-icon btn-clean btn-lg btn-dropdown mr-1">-->
+<!--                                <span><i class="fas fa-search text-warning"></i></span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">-->
+<!--                            <div class="quick-search quick-search-dropdown" id="kt_quick_search_dropdown">-->
+<!--        -->
+<!--                                <form enctype="multipart/form-data" action="https://centreholidays.com/agents/search-results.php" method="get">-->
+<!--                                    <div class="input-group">-->
+<!--        -->
+<!--                                        <input required type="text" name="searchaffilter" id="searchaffilter" class="form-control form-control-lg" placeholder="Search"/>-->
+<!--                                        <div class="input-group-append">-->
+<!--                                            <button class="btn btn-warning" type="submit">-->
+<!--                                                <i class="fas fa-search text-light"></i>-->
+<!--                                            </button>-->
+<!--                                            </span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </form>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
 		            <!--end::Search-->
+
                              <!--begin::Google-->
 		    		<div class="dropdown">
 		                <!--begin::Toggle-->
